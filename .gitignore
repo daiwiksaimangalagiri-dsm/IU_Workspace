@@ -1,0 +1,18 @@
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+
+# Playwright output
+.playwright-mcp/
+.playwright-cli/
+.DS_Store
+node_modules/
+.env.*
+!.env.example
+
+# Separate repo (team starter kit)
+initial_setup/
